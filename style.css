@@ -97,6 +97,9 @@ body {
 }
 
 #letter p {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.6s;
     font-size: 20px;
     line-height: 1.8;
     margin-bottom: 12px;
@@ -107,6 +110,8 @@ body {
     transform: translate(-50%, -80px);
     transition: 0.5s;
     z-index: 4;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #mail.open #opmail {
